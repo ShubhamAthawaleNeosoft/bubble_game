@@ -1,0 +1,120 @@
+.dNone{
+    transition: all 0.2s ease-in-out;
+    display: none;
+    /* visibility: hidden; */
+}
+#timer{
+    font-size: 26px;
+}
+.blk1{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    position: relative;
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.blk2{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: relative;
+    animation-name: example2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.blk3{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    position: relative;
+    animation-name: example3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.blk4{
+    height: 60px;
+    width: 60px;
+    background-color: blueviolet;
+    position: relative;
+    animation-name: example4;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+.blk5{
+    height: 70px;
+    width: 70px;
+    background-color:chartreuse;
+    position: relative;
+    animation-name: example5;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+.blk6{
+    height: 80px;
+    width: 80px;
+    background-color:cornflowerblue;
+    position: relative;
+    animation-name: example6;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.blk7{
+    height: 90px;
+    width: 90px;
+    background-color:crimson;
+    position: relative;
+    animation-name: example7;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes example1 {
+    0%   {background-color:palevioletred; left:50%; top:50%;}
+    25%  {background-color:yellow; left:10%; top:5%;}
+    50%  {background-color:blue; left:40%; top:10%;}
+    75%  {background-color:green; left:60%; top:50%;}
+    100% {background-color:darkolivegreen; left:100%; top:-40%;}
+}
+@keyframes example2 {
+    0%   {background-color:palevioletred; left:10px; top:88%;}
+    25%  {background-color:red; left:10%; top:34%;}
+    50%  {background-color:darkgrey; left:40%; top:40%;}
+    75%  {background-color:yellow; left:60%; top:20%;}
+    100% {background-color:darkolivegreen; left:100%; top:30%;}
+}
+@keyframes example3 {
+    0%   {background-color:palevioletred; left:10px; top:88%;}
+    25%  {background-color:red; left:10%; top:34%;}
+    50%  {background-color:blue; left:40%; top:40%;}
+    75%  {background-color:yellow; left:60%; top:20%;}
+    100% {background-color:darkolivegreen; left:100%; top:30%;}
+}
+@keyframes example4 {
+    0%   {background-color:palevioletred; left:10px; top:88%;}
+    25%  {background-color:red; left:10%; top:34%;}
+    50%  {background-color:blue; left:40%; top:40%;}
+    75%  {background-color:yellow; left:60%; top:20%;}
+    100% {background-color:darkolivegreen; left:100%; top:30%;}
+}
+@keyframes example5 {
+    0%   {background-color:palevioletred; left:0px; top:-20%px;}
+    25%  {background-color:yellow; left:10%; top:25%;}
+    50%  {background-color:plum; left:40%; top:10%;}
+    75%  {background-color:green; left:60%; top:20%;}
+    100% {background-color:darkolivegreen; left:100%; top:10%;}
+}
+@keyframes example6 {
+    0%   {background-color:palevioletred; left:10px; top:88%;}
+    25%  {background-color:red; left:10%; top:34%;}
+    50%  {background-color:blue; left:40%; top:40%;}
+    75%  {background-color:yellow; left:60%; top:20%;}
+    100% {background-color:darkolivegreen; left:100%; top:30%;}
+}
+@keyframes example7 {
+    0%   {background-color:palevioletred; left:0px; top:0px;}
+    25%  {background-color:yellow; left:10%; top:30%;}
+    50%  {background-color:darkgoldenrod; left:40%; top:300px;}
+    75%  {background-color:green; left:60%; top:20%;}
+    100% {background-color:darkolivegreen; left:100%; top:-10%;}
+}
